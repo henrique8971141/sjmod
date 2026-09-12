@@ -6,7 +6,7 @@
 
 import { SUPABASE_URL, SUPABASE_KEY, state } from './state.js';
 import { renderDashboard } from './dashboard.js';
-import { renderOrcamentos } from './orcamentos.js';
+import { renderOrcamentos } from './orcamentos-list.js';
 import { renderClientes } from './clientes.js';
 import { renderCatalog } from './catalogo.js';
 import { populateClienteDropdown } from './clientes.js';
